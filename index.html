@@ -1,0 +1,122 @@
+<html>
+   <head>
+      <link rel="shortcut icon" href=""/>
+      <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+   </head>
+   <body>
+      <div class="fade-in">
+         <section id="home">
+            <!--Title -->
+            <div id="title">
+               <h1>
+                  <center>Sids Website</center>
+               </h1>
+            </div>
+            <div id="subtitle">
+               <h3>
+                  <center>Games Code Music</center>
+               </h3>
+            </div>
+         </section>
+         <!-- About section -->
+         <center>
+            <section id="about">
+            <p>
+               Hi, I'm Sid. I am a studunt living in Cali, and I like to code, watch Top Gear, and make music. Thanks to my pals Shreyas and Talon for coding with me. 
+            </p>
+         </center>
+         <!-- Projects -->
+         <center>
+            <section id="projects">
+               <h3>Projects</h3>
+               <a href="http://getborealis.ml/">Bolearis - A minimal css framework</a>
+            </section>
+         </center>
+      </div>
+   </body>
+   <style>
+      body{
+      padding:0px;
+      margin:0px;
+      }
+      @font-face {
+      font-family: KnarfArt;
+      src: url(knarfart.ttf);
+      }
+      @font-face {
+      font-family: 'LatoLight';
+      font-style: normal;
+      src: local('Lato-Light'), url(./Lato-Light.ttf) format('truetype');
+      }
+      #title {
+      font-size: 46px;
+      font-family: KnarfArt;
+      }
+      #subtitle {
+      font-size: 30px;
+      font-family: KnarfArt;
+      }
+      .show {display:block;}
+      #home{
+      position: center;
+      color: white;
+      background: #5C258D; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #5C258D , #4389A2); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #5C258D , #4389A2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;') no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding-top: 200px;
+      padding-bottom: 280px;
+      }
+      #about{
+      font-size: 25px;
+      font-family: 'Lato', sans-serif;
+      position: center;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-right: 40px;
+      padding-left: 40px;
+      }
+      #projects{
+      background-color: black;
+      font-size: 25px;
+      font-family: 'Lato', sans-serif;
+      position: center;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-right: 40px;
+      padding-left: 40px;
+      }
+      #projects h3{
+      color: white;
+      }
+      #projects a{
+      color: white;
+      }
+      #projects a:hover {
+      color: #3498db;
+      }
+      /* FadeIn */
+      @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+      @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+      @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+      .fade-in {
+      opacity:0;
+      -webkit-animation:fadeIn ease-in 1;
+      -moz-animation:fadeIn ease-in 1;
+      animation:fadeIn ease-in 1;
+      -webkit-animation-fill-mode:forwards;
+      -moz-animation-fill-mode:forwards;
+      animation-fill-mode:forwards;
+      -webkit-animation-duration:1s;
+      -moz-animation-duration:1s;
+      animation-duration:1s;
+      }
+   </style>
+</html>
