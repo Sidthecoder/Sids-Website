@@ -1,2 +1,2 @@
-# Sids-Website
-My New website
+# Sids Website
+A prototype of the new sid website
