@@ -14,7 +14,6 @@
       #title {
       font-size: 46px;
       font-family: KnarfArt;
-      color: url("http://www.texturex.com/albums/Metal-Textures/brushed%20silver%20texture%20metal%20surface%20thick%20line%20metallic%20wallpaper.jpg");
       }
       #subtitle {
       font-size: 30px;
@@ -23,6 +22,7 @@
       .show {display:block;}
       #home{
       position: center;
+      color: silver;
       background: #dfbe6a; /* fallback for old browsers */
       background: -webkit-linear-gradient(to left, #dfbe6a , #926f34); /* Chrome 10-25, Safari 5.1-6 */
       background: linear-gradient(to left, #dfbe6a , #926f34); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
