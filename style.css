@@ -22,7 +22,7 @@
       .show {display:block;}
       #home{
       position: center;
-      color: rgba(#BCC6CC, .8);
+      color: #926f34;
       background: url("https://farm8.staticflickr.com/7013/6518403287_b6cb4840b7_o.jpg");            
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -43,7 +43,7 @@
       padding-bottom: 100px;
       padding-right: 40px;
       padding-left: 40px;
-      color: rgba(#dfbe6a, .8);
+      color: #dfbe6a;
       }
       #projects{
       background: url("http://bgfons.com/upload/carbon_texture1872.jpg");
@@ -56,10 +56,10 @@
       padding-left: 40px;
       }
       #projects h3{
-      color: white;
+      color: #bcc6cc;
       }
       #projects a{
-      color: white;
+      color: #bcc6cc;
       }
       a.indent{ padding-left: 1.8em }
       #projects a:hover {
