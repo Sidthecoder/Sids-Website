@@ -82,3 +82,6 @@
       -moz-animation-duration:1s;
       animation-duration:1s;
       }
+      img {
+          width: 7%;
+      }
