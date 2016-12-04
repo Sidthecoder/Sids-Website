@@ -90,3 +90,21 @@
           padding-top: 30px
           padding-left: 30px;
       }
+.icon-bar {
+    width: 90px;
+    text-align: center;
+    background-color: black;
+    float: left;
+}
+
+.icon-bar a {
+    padding: 16px;
+    display: block;
+    transition: all 0.3s ease;
+    color: #926f34;
+    font-size: 36px;
+}
+
+.active {
+    background-color:  !important;
+}
