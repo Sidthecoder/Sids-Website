@@ -23,10 +23,7 @@
       #home{
       position: center;
       color: white;
-      background: #5C258D; /* fallback for old browsers */
-      background: -webkit-linear-gradient(to left, #5C258D , #4389A2); /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to left, #5C258D , #4389A2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      -webkit-background-size: cover;
+      background: url("https://farm8.staticflickr.com/7013/6518403287_b6cb4840b7_o.jpg");            
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;') no-repeat center center fixed; 
@@ -38,6 +35,7 @@
       padding-bottom: 280px;
       }
       #about{
+      background: url(" http://i587.photobucket.com/albums/ss319/drownedgod9/brushed-silver-metallic-background.jpg");
       font-size: 25px;
       font-family: 'Lato', sans-serif;
       position: center;
@@ -45,6 +43,7 @@
       padding-bottom: 100px;
       padding-right: 40px;
       padding-left: 40px;
+      color: rgba(#dfbe6a, .8);
       }
       #projects{
       background-color: black;
