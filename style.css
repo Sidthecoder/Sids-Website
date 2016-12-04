@@ -1,85 +1,112 @@
-      body{
-      padding:0px;
-      margin:0px;
+      body {
+          padding: 0px;
+          margin: 0px;
       }
       @font-face {
-      font-family: KnarfArt;
-      src: url(knarfart.ttf);
+          font-family: KnarfArt;
+          src: url(knarfart.ttf);
       }
       @font-face {
-      font-family: 'LatoLight';
-      font-style: normal;
-      src: local('Lato-Light'), url(./Lato-Light.ttf) format('truetype');
+          font-family: 'LatoLight';
+          font-style: normal;
+          src: local('Lato-Light'), url(./Lato-Light.ttf) format('truetype');
       }
       #title {
-      font-size: 46px;
-      font-family: KnarfArt;
+          font-size: 46px;
+          font-family: KnarfArt;
       }
       #subtitle {
-      font-size: 30px;
-      font-family: KnarfArt;
+          font-size: 30px;
+          font-family: KnarfArt;
       }
-      .show {display:block;}
-      #home{
-      position: center;
-      color: white;
-      background: url("https://farm8.staticflickr.com/7013/6518403287_b6cb4840b7_o.jpg");            
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;') no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      padding-top: 200px;
-      padding-bottom: 280px;
+      .show {
+          display: block;
       }
-      #about{
-      background: url("http://i587.photobucket.com/albums/ss319/drownedgod9/brushed-silver-metallic-background.jpg");
-      font-size: 25px;
-      font-family: 'Lato', sans-serif;
-      position: center;
-      padding-top: 100px;
-      padding-bottom: 100px;
-      padding-right: 40px;
-      padding-left: 40px;
-      color: black;
+      #home {
+          position: center;
+          color: white;
+          background: url("https://farm8.staticflickr.com/7013/6518403287_b6cb4840b7_o.jpg");
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          ') no-repeat center center fixed; 
+ -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          padding-top: 200px;
+          padding-bottom: 280px;
       }
-      #projects{
-      background: url("http://bgfons.com/upload/carbon_texture1872.jpg");
-      font-size: 25px;
-      font-family: 'Lato', sans-serif;
-      position: center;
-      padding-top: 100px;
-      padding-bottom: 100px;
-      padding-right: 40px;
-      padding-left: 40px;
+      #about {
+          background: url("http://i587.photobucket.com/albums/ss319/drownedgod9/brushed-silver-metallic-background.jpg");
+          font-size: 25px;
+          font-family: 'Lato', sans-serif;
+          position: center;
+          padding-top: 100px;
+          padding-bottom: 100px;
+          padding-right: 40px;
+          padding-left: 40px;
+          color: black;
       }
-      #projects h3{
-      color: white;
+      #projects {
+          background: url("http://bgfons.com/upload/carbon_texture1872.jpg");
+          font-size: 25px;
+          font-family: 'Lato', sans-serif;
+          position: center;
+          padding-top: 100px;
+          padding-bottom: 100px;
+          padding-right: 40px;
+          padding-left: 40px;
       }
-      #projects a{
-      color: white;
+      #projects h3 {
+          color: white;
       }
-      a.indent{ padding-left: 1.8em }
+      #projects a {
+          color: white;
+      }
+      a.indent {
+          padding-left: 1.8em
+      }
       #projects a:hover {
-      color: #3498db;
+          color: #3498db;
       }
       /* FadeIn */
-      @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-      @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-      @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+      
+      @-webkit-keyframes fadeIn {
+          from {
+              opacity: 0;
+          }
+          to {
+              opacity: 1;
+          }
+      }
+      @-moz-keyframes fadeIn {
+          from {
+              opacity: 0;
+          }
+          to {
+              opacity: 1;
+          }
+      }
+      @keyframes fadeIn {
+          from {
+              opacity: 0;
+          }
+          to {
+              opacity: 1;
+          }
+      }
       .fade-in {
-      opacity:0;
-      -webkit-animation:fadeIn ease-in 1;
-      -moz-animation:fadeIn ease-in 1;
-      animation:fadeIn ease-in 1;
-      -webkit-animation-fill-mode:forwards;
-      -moz-animation-fill-mode:forwards;
-      animation-fill-mode:forwards;
-      -webkit-animation-duration:1s;
-      -moz-animation-duration:1s;
-      animation-duration:1s;
+          opacity: 0;
+          -webkit-animation: fadeIn ease-in 1;
+          -moz-animation: fadeIn ease-in 1;
+          animation: fadeIn ease-in 1;
+          -webkit-animation-fill-mode: forwards;
+          -moz-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+          -webkit-animation-duration: 1s;
+          -moz-animation-duration: 1s;
+          animation-duration: 1s;
       }
       img {
           width: 7%;
@@ -87,24 +114,24 @@
           float: left;
           float: top;
           color: gold;
-          padding-top: 30px
-          padding-left: 30px;
+          padding-top: 30px padding-left: 30px;
       }
-.icon-bar {
-    width: 90px;
-    text-align: center;
-    background-color: black;
-    float: left;
-}
-
-.icon-bar a {
-    padding: 16px;
-    display: block;
-    transition: all 0.3s ease;
-    color: #926f34;
-    font-size: 36px;
-}
-
-.active {
-    background-color:  !important;
-}
+      .icon-bar {
+          width: 90px;
+          text-align: center;
+          background-color: black;
+          float: left;
+          position: fixed;
+          top: 0;
+          width: 100%;
+      }
+      .icon-bar a {
+          padding: 16px;
+          display: block;
+          transition: all 0.3s ease;
+          color: #926f34;
+          font-size: 36px;
+      }
+      .active {
+          background-color: !important;
+      }
