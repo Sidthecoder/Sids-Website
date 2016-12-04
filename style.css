@@ -22,7 +22,7 @@
       .show {display:block;}
       #home{
       position: center;
-      color: white;
+      color: rgba(#BCC6CC, .8);
       background: url("https://farm8.staticflickr.com/7013/6518403287_b6cb4840b7_o.jpg");            
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -35,7 +35,7 @@
       padding-bottom: 280px;
       }
       #about{
-      background: url(" http://i587.photobucket.com/albums/ss319/drownedgod9/brushed-silver-metallic-background.jpg");
+      background: url("http://i587.photobucket.com/albums/ss319/drownedgod9/brushed-silver-metallic-background.jpg");
       font-size: 25px;
       font-family: 'Lato', sans-serif;
       position: center;
@@ -46,7 +46,7 @@
       color: rgba(#dfbe6a, .8);
       }
       #projects{
-      background-color: black;
+      background: url("http://bgfons.com/upload/carbon_texture1872.jpg");
       font-size: 25px;
       font-family: 'Lato', sans-serif;
       position: center;
