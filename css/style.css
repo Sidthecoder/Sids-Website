@@ -10,7 +10,7 @@ font-style: normal;
 src: local('Gilroy-Light'), url(./Gilroy-Light.otf) format('opentype');
 }
 body {
-background: url("http://i.imgur.com/x4Ejm.jpg") no-repeat center center fixed; 
+background: url("http://i.imgur.com/x4Ejm.jpg") no-repeat center center fixed; 0
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -75,7 +75,6 @@ background: black;
 font-size: 25px;
 font-family: 'Lato', sans-serif;
 position: center;
-padding-bottom: 200px;
 padding-right: 40px;
 padding-left: 40px;
 }
