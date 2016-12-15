@@ -83,6 +83,9 @@ padding-left: 40px;
   color: white;
   border: none;
 }
+#about h3 {
+  padding-top: 40px;
+}
 h6 { 
   color: #0575E6;
   font-family: 'Lato';
