@@ -91,6 +91,9 @@ h4 {
 h4 span {
   color: #FF0000;
 }
+h4 a {
+  color: #0575E6;
+}
 .bottom {
        position: fixed;
      bottom: 0;
