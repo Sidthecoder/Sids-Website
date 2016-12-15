@@ -80,16 +80,16 @@ padding-right: 40px;
 padding-left: 40px;
 }
 h6 { 
-  color: black;
+  color: #0575E6;
   font-family: 'Lato';
 }
 h4 {
-  color: #5AD;
+  color: #0575E6;
   font-family: 'Lato';
   font-size: 20px;
 }
 h4 span {
-  color: #F00;
+  color: #FF0000;
 }
 .bottom {
        position: fixed;
