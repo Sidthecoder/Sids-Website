@@ -81,7 +81,7 @@ padding-left: 40px;
 }
 #about a {
   color: white;
-  padding-top: 20px;
+  border: none;
 }
 h6 { 
   color: #0575E6;
