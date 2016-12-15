@@ -91,10 +91,7 @@ h4 span {
   color: #F00;
 }
 .bottom {
-  float: right;
-  text-align: right;
-}
-hr {
-  width: 300px;
-  margin-right: 0px;
+       position: fixed;
+     bottom: 0;
+     right: 0;
 }
