@@ -1,0 +1,80 @@
+@font-face {
+font-family: 'Gilroy-Bold';
+font-style: normal;
+src: local('Gilroy-ExtraBold'), url(./Gilroy-ExtraBold.otf) format('opentype');
+}
+@font-face {
+font-family: 'Gilroy-Light';
+font-style: normal;
+src: local('Gilroy-Light'), url(./Gilroy-Light.otf) format('opentype');
+}
+body {
+background: url("http://i.imgur.com/x4Ejm.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding: 0px;
+margin: 0px;
+}
+h1 {
+text-align: center;
+color: white;
+font-size: 80px;
+padding-top: 60px;
+font-family: 'Gilroy-Bold', sans-serif;
+color: #0575E6;
+}
+h3 {
+text-align: center;
+color: white;
+font-size: 40px;
+font-family: 'Gilroy-Light', sans-serif;
+}
+p {
+color: white;
+font-family: 'Gilroy-Light', sans-serif;
+text-align: center;
+font-size: 50px;
+border: 2px;
+}
+p a {
+color: white;
+text-decoration: none;
+}
+hr {
+border:0;
+height: 1px;
+background-color: #0575E6;
+}
+.Button {
+background-color:transparent;
+-moz-border-radius:28px;
+-webkit-border-radius:28px;
+border-radius:28px;
+border:1px solid #0575E6;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family: 'Gilroy-Light';
+font-size:17px;
+padding:16px 31px;
+text-decoration:none;
+}
+.Button:hover {
+background-color: transparent;
+}
+.Button:active {
+position:relative;
+top:1px;
+}
+.material-icons.md-48 { font-size: 100px; color: white;}
+#about{
+background: black;
+font-size: 25px;
+font-family: 'Lato', sans-serif;
+position: center;
+padding-bottom: 200px;
+padding-right: 40px;
+padding-left: 40px;
+}
