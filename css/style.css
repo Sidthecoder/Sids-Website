@@ -141,13 +141,13 @@ img {
   text-align: center;
   line-height: 50px;
   letter-spacing: 1px;
-  color: ;
   top: 25px;
   right: -50px;
   left: auto;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  font-family: 'Gilroy';
+  font-family: 'Gilroy-Light';
+ position: fixed;
 }
 
 img {
